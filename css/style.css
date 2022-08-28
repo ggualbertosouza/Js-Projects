@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: grey;
+}
+
+header {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  border-bottom: 0.1rem solid black;
+  padding-bottom: 2rem;
+}
+
+.logo {
+  color: orange;
+  font-size: 3rem;
+}
+
+.logo span {
+  color: black;
+  font-size: 4rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  color: black;
+}
+
+.nav-item:hover {
+  color: orange;
+}
+
+main {
+  padding-top: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 15rem;
+}
+
+.container-cron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.cronometro {
+  font-size: 5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.comecar {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 5rem;
+  height: 5rem;
+  background-color: orange;
+  color: black;
+}
+
+.comecar:hover {
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.pausar {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 5rem;
+  height: 5rem;
+  background-color: orange;
+  color: black;
+}
+
+.pausar:hover {
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.zerar {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 5rem;
+  height: 5rem;
+  background-color: orange;
+  color: black;
+}
+
+.zerar:hover {
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.slider {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 400%;
+  height: 400px;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 200%;
+  position: relative;
+}
+
+.slide img {
+  width: 800px;
+}
+
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  border-top: 0.1rem solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  gap: 2rem;
+}/*# sourceMappingURL=style.css.map */

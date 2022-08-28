@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Slider</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><span>Cronô</span>metro</h1>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="index.html" class="nav-item">Código</a>
+            <a href="index.html" class="nav-item">Contact</a>
+        </nav>
+    </header>
+
+    <main class="codigo">
+        <section class="container-cron">
+            <p class="cronometro">00:00:00:00</p>
+            <div class="buttons">
+                <button class="comecar" onclick="start()">Start</button>
+                <button class="pausar" onclick="pause()">Pause</button>
+                <button class="zerar" onclick="restart()">Restart</button>
+            </div>
+        </section>
+
+        <section class="container-code">
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio buttons starts -->
+                    <input type="radio" name="radio-btn" class="radio1">
+                    <input type="radio" name="radio-btn" class="radio2">
+                    <!--Radio buttons ends-->
+
+                    <!--Images-->
+                    <div class="slide first">
+                        <img class="img" src="img/html.png" alt="imagem do código HTML">
+                    </div>
+                    <div class="slide">
+                        <img class="img" src="img/JavaScript.png" alt="imagem do código JavaScript">
+                    </div>
+                    <!--Images Ends-->
+
+                    <!--NAV-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                    </div>
+                    <!--Nav end-->
+                </div>
+                
+                <div class="manueal-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <a href="#"><span>Gmail</span></a>
+            <a href="#"><span>Github</span></a>
+            <a href="#"><span>CodePen</span></a>
+          </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
