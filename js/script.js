@@ -1,5 +1,7 @@
-var time
 
+/*--------------StopWAtch Start-------------- */
+
+var time
 var h = 0
 var m = 0
 var s = 0
@@ -44,3 +46,15 @@ function timer(){
     
 }
 
+/*--------------StopWAtch End-------------- */
+
+/*--------------Lamps Start---------------- */
+
+
+function turnOn(){
+    document.querySelector('.lamp').src="../img/ligada.jpg"
+}
+function turnOff(){
+    document.querySelector('.lamp').src="../img/desligada.jpg"
+}
+/*--------------Lamps End---------------- */
